@@ -1,10 +1,5 @@
 package service
 
-import (
-	"context"
-	"net/http"
-)
-
 type DefaultHeaders struct {
 	Headers map[string]string
 }
