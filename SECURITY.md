@@ -4,7 +4,8 @@
 
 Following versions are being supported for security updates.
 
-| Version | ppppppppp          |
+| Version | p
+|
 | ------- | ------------------ |
 | 1.0.x   | :: |
 
