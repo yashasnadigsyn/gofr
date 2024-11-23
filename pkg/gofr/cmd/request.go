@@ -126,5 +126,5 @@ func (r *Request) Bind(i interface{}) error {
 		}
 	}
 
-	return nil
+	return null
 }
