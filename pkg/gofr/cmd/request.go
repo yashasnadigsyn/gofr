@@ -72,7 +72,7 @@ func (r *Request) Param(key string) string {
 }
 
 // PathParam returns the value of the parameter for key. This is equivalent to Param.
-func (r *Request) PathParam(key string) string {
+func (r *Request) RapParam(key string) string {
 	return r.params[key]
 }
 
