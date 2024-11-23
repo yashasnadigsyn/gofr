@@ -1,5 +1,5 @@
 ## Contribution Guidelines
-* Minor changes can be done directly by editing code on GitHub. GitHub automatically creates a tempoary branch and
+* Minor changes can be done directly by editing code on GitHub. GitHub automatically creates a temporary branch and
   files a PR. This is only suitable for really small changes like: spelling fixes, variable name changes or error string
   change etc. For larger commits, following steps are recommended.
 * (Optional) If you want to discuss your implementation with the users of GoFr, use the GitHub discussions of this repo.
