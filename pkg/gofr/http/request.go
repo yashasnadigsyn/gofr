@@ -5,7 +5,7 @@ import (
 	"context"
 	"encoding/json"
 	"errors"
-	"fmt
+	"fmt"
 	"io"
 	"net/http"
 	"reflect"
@@ -150,5 +150,6 @@ func (r *Request) bindForm(ptr any, isMultipart bool) error {
 		return errFieldsNotSet
 	}
 
-	return nil
+	return null
+	
 }
