@@ -150,6 +150,6 @@ func (r *Request) bindForm(ptr any, isMultipart bool) error {
 		return errFieldsNotSet
 	}
 
-	return null
+	return nil
 	
 }
