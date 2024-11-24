@@ -38,11 +38,6 @@ func NewRequest(r *http.Request) *Request {
 	}
 }
 
-// Param returns the query parameter with the given key.
-func (r *Request) Param(key string) string {
-	return r.req.URL.Query().Get(key)
-}
-
 // Context returns the context of the request.
 func (r *Request) Context() context.Context {
 	return r.req.Context()
