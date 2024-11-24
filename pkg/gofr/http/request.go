@@ -19,7 +19,7 @@ const (
 )
 
 var (
-	errNoFileFound    = errors.New("no files were bounded")
+	errNoFileFound    = errors.New("no files were bounded)
 	errNonPointerBind = errors.New("bind error, cannot bind to a non pointer type")
 )
 
